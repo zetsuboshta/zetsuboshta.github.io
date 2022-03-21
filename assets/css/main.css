@@ -2875,8 +2875,13 @@
 
 /* Intro */
 
+	.intro-text{
+		font-weight: 600;
+		text-shadow: 1px 4px 6px black;
+	}
+
 	#intro {
-		background: url("images/overlay.png"), url("../../images/intro.jpg");
+		background: url("images/overlay.png"), url("../../images/intro.webp");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
@@ -2884,7 +2889,7 @@
 	}
 
 	#study {
-		background: url("images/overlay.png"), url("../../images/study.jpg");
+		background: url("images/overlay.png"), url("../../images/study.webp");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
@@ -2892,7 +2897,7 @@
 	}
 
 	#relax {
-		background: url("images/overlay.png"), url("../../images/relax.jpg");
+		background: url("images/overlay.png"), url("../../images/relax.webp");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
@@ -2900,7 +2905,7 @@
 	}
 
 	#contact {
-		background: url("images/overlay.png"), url("../../images/contact.jpg");
+		background: url("images/overlay.png"), url("../../images/contact.webp");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
@@ -2930,7 +2935,7 @@
 /* Two */
 
 	#about {
-		background: url("images/overlay.png"), url("../../images/about.jpg");
+		background: url("images/overlay.png"), url("../../images/about.webp");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
@@ -2939,7 +2944,7 @@
 /* Two */
 
 	#where {
-		background: url("images/overlay.png"), url("../../images/where.jpg");
+		background: url("images/overlay.png"), url("../../images/where.webp");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
@@ -2948,7 +2953,7 @@
 /* Two */
 
 	#what {
-		background: url("images/overlay.png"), url("../../images/what.jpg");
+		background: url("images/overlay.png"), url("../../images/what.webp");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
@@ -2957,7 +2962,7 @@
 /* Two */
 
 	#who {
-		background: url("images/overlay.png"), url("../../images/who.jpg");
+		background: url("images/overlay.png"), url("../../images/who.webp");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
@@ -2966,7 +2971,7 @@
 /* Two */
 
 	#how {
-		background: url("images/overlay.png"), url("../../images/how.jpg");
+		background: url("images/overlay.png"), url("../../images/how.webp");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
@@ -2975,7 +2980,7 @@
 /* Two */
 
 	#howmuch {
-		background: url("images/overlay.png"), url("../../images/howmuch.jpg");
+		background: url("images/overlay.png"), url("../../images/howmuch.webp");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
@@ -2984,7 +2989,7 @@
 /* Two */
 
 	#difficulty {
-		background: url("images/overlay.png"), url("../../images/difficulty.jpg");
+		background: url("images/overlay.png"), url("../../images/difficulty.webp");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
@@ -2993,7 +2998,7 @@
 /* Two */
 
 	#teachers {
-		background: url("images/overlay.png"), url("../../images/teachers.jpg");
+		background: url("images/overlay.png"), url("../../images/teachers.webp");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
@@ -3002,7 +3007,7 @@
 /* Two */
 
 	#types {
-		background: url("images/overlay.png"), url("../../images/types.jpg");
+		background: url("images/overlay.png"), url("../../images/types.webp");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
@@ -3012,7 +3017,7 @@
 /* Two */
 
 	#lecture {
-		background: url("images/overlay.png"), url("../../images/lecture.jpg");
+		background: url("images/overlay.png"), url("../../images/lecture.webp");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
@@ -3021,7 +3026,7 @@
 /* Two */
 
 	#faculty {
-		background: url("images/overlay.png"), url("../../images/faculty.jpg");
+		background: url("images/overlay.png"), url("../../images/faculty.webp");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
@@ -3030,7 +3035,7 @@
 /* Two */
 
 	#lab {
-		background: url("images/overlay.png"), url("../../images/lab.jpg");
+		background: url("images/overlay.png"), url("../../images/lab.webp");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
@@ -3039,7 +3044,7 @@
 /* Two */
 
 	#seminar {
-		background: url("images/overlay.png"), url("../../images/seminar.jpg");
+		background: url("images/overlay.png"), url("../../images/seminar.webp");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
@@ -3048,7 +3053,7 @@
 /* Two */
 
 	#round {
-		background: url("images/overlay.png"), url("../../images/round.jpg");
+		background: url("images/overlay.png"), url("../../images/round.webp");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
@@ -3057,7 +3062,7 @@
 /* Two */
 
 	#onlystudy {
-		background: url("images/overlay.png"), url("../../images/onlystudy.jpg");
+		background: url("images/overlay.png"), url("../../images/onlystudy.webp");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
@@ -3066,7 +3071,7 @@
 /* Two */
 
 	#combine {
-		background: url("images/overlay.png"), url("../../images/combine.jpg");
+		background: url("images/overlay.png"), url("../../images/combine.webp");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
@@ -3075,7 +3080,7 @@
 /* Two */
 
 	#sport {
-		background: url("images/overlay.png"), url("../../images/sport.jpg");
+		background: url("images/overlay.png"), url("../../images/sport.webp");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
@@ -3084,7 +3089,7 @@
 /* Two */
 
 	#competition {
-		background: url("images/overlay.png"), url("../../images/competition.jpg");
+		background: url("images/overlay.png"), url("../../images/competition.webp");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
@@ -3093,7 +3098,7 @@
 /* Two */
 
 	#creative {
-		background: url("images/overlay.png"), url("../../images/creative.jpg");
+		background: url("images/overlay.png"), url("../../images/creative.webp");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
@@ -3102,7 +3107,7 @@
 /* Two */
 
 	#participate {
-		background: url("images/overlay.png"), url("../../images/participate.jpg");
+		background: url("images/overlay.png"), url("../../images/participate.webp");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
@@ -3111,7 +3116,7 @@
 /* Two */
 
 	#dayshow {
-		background: url("images/overlay.png"), url("../../images/dayshow.jpg");
+		background: url("images/overlay.png"), url("../../images/dayshow.webp");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
@@ -3120,7 +3125,7 @@
 /* Two */
 
 	#selfmade {
-		background: url("images/overlay.png"), url("../../images/selfmade.jpg");
+		background: url("images/overlay.png"), url("../../images/selfmade.webp");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
